@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        .flex-container{
+            display: flex;
+            background-color: bisque;
+            flex-direction: row;
+        }
+        .flex-container div{
+            margin: 5px;
+            color: black;
+            width: 100px;
+        }
+        @media(max-width:400px){
+            .flex-container{
+                flex-direction: column-reverse;
+                }
+            }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+</head>
+
+</html>
+
+<body>
+   
+    <header>
+        <h1>Página Principal</h1>
+        <div class="flex-container">
+            <div>inicio</div>
+            <div>perfil</div>
+            <div>carrito</div>
+        </div>
+        <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="ayuda.html">Ayuda</a></li>
+        </ul>
+        </nav>
+    </header>
+
+
+
+
+<img src="img/tienda.ropa.jpg"alt="">
+
+<section class="home">
+    <div id="grilla">
+        <header class="border">Header</header>
+        <section id="productos" class="border">Section</section>
+        <section id="servicios" class="border">Section</section>
+        <nav class="border">Navegacion</nav>
+        <aside class="border">Aside</aside>
+        <footer class="border">Pie de pagina</footer>
+   </div>
+   
+</section>
+
+<article>
+    <form action="" method="get" enctype="multipart/form-data">
+        <label for="Mail">Mail:</label>
+        <input type="text" placeholder="Gmail o Hotmail">
+        <input type="button" value="Enviar">
+        <div>Mail</div>
+        <input type="radio" name="Mail" value="Mail">
+        <div>whatsapp</div>
+        <input type="radio" name="Mail" value="Mail">
+    </form>
+    <form action="" method="get" enctype="multipart/form-data">
+        <div>Términos y condiciones</div>
+        <input type="checkbox" name="acepta" value="1">
+    </form>
+</article>
+<footer>
+<ul>
+    <li><a href="/contacto.html">Contacto</a></li>
+    <li><a href="/ayuda.html">Ayuda</a></li>
+    <li><a href="/">Nosotros</a></li>
+</ul>
+</footer>
+
+</body>
